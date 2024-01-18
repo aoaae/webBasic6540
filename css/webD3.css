@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;900&display=swap');
+
+/* html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------start Header---------------------- */
+
+header {
+    background-color: #37517E;
+    
+}
+
+nav {
+    color: #ffffff;
+    display: flex;
+    width: 1100px;
+    height: 48px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: rgb(243, 138, 0) ; */
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* -----------------start Section Hero--------------- */
+
+.hero {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background-color: bisque; */
+}
+
+.hero-text-box {
+    color: #ffffff;
+}
+
+.hero-button {
+    display: flex;
+}
+
+.hero-bt-getStarted {
+    background-color: rgb(230, 136, 12);
+    padding: 4px 20px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.hero-bt-watch {
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+
+}
